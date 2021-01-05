@@ -13,7 +13,7 @@ public class CameraManager : MonoBehaviour
     {
         taille = ListeView.Length;
         ListeView[0].SetActive(true);
-        for(int i=0; i<taille; i++)
+        for(int i=1; i<taille; i++)
         {
             ListeView[i].SetActive(false);
         }
